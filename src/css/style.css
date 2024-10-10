@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 3vb;
+    font-family: 'Rubik', sans-serif;
+}
+
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 12, 177);
+    background: linear-gradient(137deg, rgb(3, 5, 131) 18%, rgb(39, 6, 226) 51%, rgb(3, 5, 131) 88%);
+    width: 100vw;
+    height: 100vh;
+}   
+
+.caixa-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: rgb(18, 0, 184);
+    width: 60vw;
+    height: 76vh;
+    border-radius: 4vb;
+}
+
+.area-formulario {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.area-formulario input {
+    margin: 0 0 2.5vb;
+    width: 50vw;
+    height: 6vh;
+    max-width: max-content;
+    border-radius: 1vb;
+    border: 0.3vb solid rgb(0, 0, 0);
+}
+.area-formulario label{
+    width: 50vw;
+    height: 4vh;
+    max-width: max-content;
+    border-radius: 1vb;
+}
